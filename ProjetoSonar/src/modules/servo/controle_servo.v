@@ -1,39 +1,29 @@
-/* --------------------------------------------------------------------
- * Arquivo   : controle_servo
- * Projeto   : EXP01 - CONTROLE DE UM SERVOMOTOR
- * --------------------------------------------------------------------
- * Descricao : circuito logico desenvolvido para experiencia 01
- * --------------------------------------------------------------------
- * Revisoes  :
- *     Data        Versao       Autor             Descricao
- *     03/09/2025   1.0          B8      versao atualizada
- * --------------------------------------------------------------------
- */
+/* controle servo */
 
  module controle_servo (
-
     input wire clock,
     input wire reset,
-    input wire [1:0] posicao,
-    output controle,
-    output db_controle
-
+    input wire [2:0] posicao,
+    output controle
 );
 
 // Servo Motor
 circuito_pwm #(    
-    .conf_periodo (1000000), // Período do sinal PWM [1000000 => f=50MHz (20ms)]
-    .largura_00   (0),    // Largura do pulso p/ 00 [0 => 0]
-    .largura_01   (50000),   // Largura do pulso p/ 01 [50 => 1us]
-    .largura_10   (75000),  // Largura do pulso p/ 10 [500 => 10us]
-    .largura_11   (100000)   // Largura do pulso p/ 11 [1000 => 20us]
-    )Modulo_PWM(
+    .conf_periodo (1000000), 
+    .largura_000   (35000),    
+    .largura_001   (45700),  
+    .largura_010   (56450),  
+    .largura_011   (67150),
+    .largura_100   (77850),
+    .largura_101   (88550),
+    .largura_110   (99300),
+    .largura_111   (110000)
+
+    ) Modulo_PWM (
     .clock      ( clock ),
     .reset      ( reset ),
     .largura    ( posicao ),
-    .pwm        ( controle ),
-    .db_pwm     ( db_controle )
+    .pwm        ( controle )
 );
-
 
 endmodule

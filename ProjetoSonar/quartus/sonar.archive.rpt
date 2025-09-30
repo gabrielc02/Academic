@@ -1,0 +1,129 @@
+Archive Project report for sonar
+Tue Sep 30 19:47:40 2025
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Sep 30 19:47:40 2025 ;
+; Revision Name          ; sonar                                 ;
+; Top-level Entity Name  ; sonar                                 ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/gabri/CODE/Academic/ProjetoSonar/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/gabri/CODE/Academic/ProjetoSonar/quartus/exp5_t4bA8.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'sonar.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga_lite/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Tue Sep 30 19:47:40 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++--------------------------------------------------------------------------------------+
+; Files Archived                                                                       ;
++--------------------------------------------------------------------------------------+
+; File Name                                                                            ;
++--------------------------------------------------------------------------------------+
+; ../src/fd/sonar_fd.v                                                                 ;
+; ../src/modules/rom/rom_angulos_8x12.v                                                ;
+; ../src/modules/sensor/interface_hcsr04.v                                             ;
+; ../src/modules/sensor/interface_hcsr04_fd.v                                          ;
+; ../src/modules/sensor/interface_hcsr04_uc.v                                          ;
+; ../src/modules/servo/circuito_pwm.v                                                  ;
+; ../src/modules/servo/controle_servo.v                                                ;
+; ../src/modules/transmissor/tx_serial_7E1.v                                           ;
+; ../src/modules/transmissor/tx_serial_7E1_fd.v                                        ;
+; ../src/modules/transmissor/tx_serial_7E1_uc.v                                        ;
+; ../src/modules/trena/exp3_sensor.v                                                   ;
+; ../src/modules/trena/trena.v                                                         ;
+; ../src/modules/utils/contador_bcd_3digitos.v                                         ;
+; ../src/modules/utils/contador_cm.v                                                   ;
+; ../src/modules/utils/contador_cm_fd.v                                                ;
+; ../src/modules/utils/contador_cm_uc.v                                                ;
+; ../src/modules/utils/contador_m.v                                                    ;
+; ../src/modules/utils/deslocador_n.v                                                  ;
+; ../src/modules/utils/edge_detector.v                                                 ;
+; ../src/modules/utils/gerador_pulso.v                                                 ;
+; ../src/modules/utils/hexa7seg.v                                                      ;
+; ../src/modules/utils/mux_nibble.v                                                    ;
+; ../src/modules/utils/registrador_n.v                                                 ;
+; ../src/top/sonar.v                                                                   ;
+; ../src/uc/sonar_uc.v                                                                 ;
+; c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf                         ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v                          ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v         ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v      ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v   ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v   ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/circuito_pwm.v           ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/controle_servo.v         ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v    ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v            ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v                  ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v  ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v            ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v         ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v         ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v             ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v           ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v          ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v          ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v               ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v             ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v          ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v                            ;
+; C:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v                          ;
+; sonar.qpf                                                                            ;
+; sonar.qsf                                                                            ;
++--------------------------------------------------------------------------------------+
+
+
