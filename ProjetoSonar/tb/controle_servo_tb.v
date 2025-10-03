@@ -9,7 +9,7 @@ module controle_servo_tb;
     // Declaração de sinais para conectar o componente a ser testado (DUT)
     reg       clock_in   = 1;
     reg       reset_in   = 0;
-    reg [1:0] posicao_in = 2'b00;
+    reg [2:0] posicao_in = 3'b000;
     wire      sinal_controle_out;
 
     // Configuração do clock
@@ -27,7 +27,7 @@ module controle_servo_tb;
         .clock          (clock_in          ),
         .reset          (reset_in          ),
         .posicao        (posicao_in        ),
-        .sinal_controle (sinal_controle_out)
+        .controle (sinal_controle_out)
     );
 
     // Geração dos sinais de entrada (estímulos)
@@ -46,28 +46,48 @@ module controle_servo_tb;
         // espera
         #(10*clockPeriod);
 
-        // Teste 2. posicao=00
+        // Teste 2. posicao=000
         caso = 2;
         @(negedge clock_in);
-        posicao_in = 2'b00; // sem pulso na saida
+        posicao_in = 3'b000; // largura de 0,7ms
         #(200_000_000);     // espera por 200ms
 
-        // Teste 3. posicao=01
+        // Teste 3. posicao=001
         caso = 3;
         @(negedge clock_in);
-        posicao_in = 2'b01; // largura de pulso de 1ms
+        posicao_in = 3'b001; // largura de pulso de 0,914ms
         #(200_000_000);
 
         // Teste 4. posicao=10
         caso = 4;
         @(negedge clock_in);
-        posicao_in = 2'b10; // largura de pulso de 1,5ms
+        posicao_in = 3'b10; // largura de pulso de 1,129ms
         #(200_000_000);
 
         // Teste 5. posicao=11
         caso = 5;
         @(negedge clock_in);
-        posicao_in = 2'b11; // largura de pulso de 2ms
+        posicao_in = 3'b011; // largura de pulso de 1,343ms
+        #(200_000_000);
+
+        caso = 6;
+        @(negedge clock_in);
+        posicao_in = 3'b100; // largura de pulso de 1,557ms
+        #(200_000_000);
+
+        caso = 7;
+        @(negedge clock_in);
+        posicao_in = 3'b101; // largura de pulso de 1,771ms
+        #(200_000_000);
+
+        caso = 8;
+        @(negedge clock_in);
+        posicao_in = 3'b110; // largura de pulso de 1,986ms
+        #(200_000_000);
+
+        caso = 9;
+        @(negedge clock_in);
+        posicao_in = 3'b111; // largura de pulso de 2,2ms
         #(200_000_000);
 
         // final dos casos de teste da simulacao
