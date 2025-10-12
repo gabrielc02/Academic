@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Users/gabri/POLI/LABDIG2/EXP04/MODELSIM
 vcircuito_pwm
-Z0 !s110 1759510168
+Z0 !s110 1760308597
 !i10b 1
 !s100 `7TDA@TzK_CzVLMFCa9Y]2
 IIRfPT15bS;96Fl3Oln>@@1
@@ -23,35 +23,119 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1759510168.000000
+Z4 !s108 1760308597.000000
 !s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/circuito_pwm.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/circuito_pwm.v|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
+vcontador_bcd_3digitos
+Z7 !s110 1760308598
+!i10b 1
+!s100 G1VaQQ4g5Y]o1KCR?D:K@3
+Idjn8>[:OEj]8Bl?J]Rjd^2
+R1
+R2
+Z8 w1757457619
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v
+Z9 L0 14
+R3
+r1
+!s85 0
+31
+Z10 !s108 1760308598.000000
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v|
+!i113 1
+R5
+R6
+vcontador_cm
+R7
+!i10b 1
+!s100 2T^A8MNXgbIXX8e2VIgzE3
+I1;ljjm5LZ70bEC0JdG[1`3
+R1
+R2
+w1757716379
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v
+Z11 L0 15
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v|
+!i113 1
+R5
+R6
+vcontador_cm_fd
+R7
+!i10b 1
+!s100 K8nZGc1@M=5=UzM95Y[=G0
+IDX3?m55zPCodmRKAbTdZC3
+R1
+R2
+w1757715855
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v
+R11
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v|
+!i113 1
+R5
+R6
+vcontador_cm_uc
+R7
+!i10b 1
+!s100 :F2lOglXmRX<5HZ>^fjl03
+I[G^OfNkVbDMLgo18:P=?=1
+R1
+R2
+w1757718313
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v|
+!i113 1
+R5
+R6
 vcontador_m
-Z7 !s110 1759514525
+R7
 !i10b 1
 !s100 oz5;XY>M0z>T[>YBoK6653
 IILT8S2NZK_7]kO]f^AjVF2
 R1
 R2
-w1759514420
+w1759516715
 8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v
 FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v
-L0 16
+Z12 L0 16
 R3
 r1
 !s85 0
 31
-Z8 !s108 1759514525.000000
+R10
 !s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v|
 !i113 1
 R5
 R6
 vcontador_m_tb
-R7
+!s110 1759514525
 !i10b 1
 !s100 o<:N4PEB^>[P@=l>3==J02
 In=VEIMhUa?J51[E620Y=b3
@@ -60,12 +144,12 @@ R2
 w1757708793
 8C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/contador_m_tb.v
 FC:/Users/gabri/CODE/Academic/ProjetoSonar/tb/contador_m_tb.v
-L0 17
+Z13 L0 17
 R3
 r1
 !s85 0
 31
-R8
+!s108 1759514525.000000
 !s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/contador_m_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/contador_m_tb.v|
 !i113 1
@@ -93,7 +177,7 @@ R4
 R5
 R6
 vcontrole_servo_tb
-R0
+!s110 1759510168
 !i10b 1
 !s100 YjziO5cChVZN^[>0_gl0E0
 IJ1:91HjCGzWU>0eg7dfZ`1
@@ -107,9 +191,473 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1759510168.000000
 !s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/controle_servo_tb.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/controle_servo_tb.v|
+!i113 1
+R5
+R6
+vdeslocador_n
+R7
+!i10b 1
+!s100 PSkkfN2z:nM><DOG_8?3F1
+InIHbYaJcG8CRN`F2znbJS2
+R1
+R2
+Z14 w1756929630
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v
+R11
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v|
+!i113 1
+R5
+R6
+vedge_detector
+R7
+!i10b 1
+!s100 WV5WCg2SZ=LWUESOkXGc32
+Io_kd]6dGGVI6:P_WU@G:d3
+R1
+R2
+w1757103131
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v
+L0 19
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v|
+!i113 1
+R5
+R6
+vexp3_sensor
+R7
+!i10b 1
+!s100 <`@Q=fdgXe_;iO<LmU2oT3
+IB[KaIMlF4QnZPcKZn`hPE1
+R1
+R2
+w1759250862
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v
+R13
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v|
+!i113 1
+R5
+R6
+vgerador_pulso
+Z15 !s110 1760308599
+!i10b 1
+!s100 9mC0mHMOKY3;D7OGUSWcK1
+Ik0FiKzbjeKJVzQSKMkSCR3
+R1
+R2
+R8
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v
+R9
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v|
+!i113 1
+R5
+R6
+vhexa7seg
+R15
+!i10b 1
+!s100 X`<lfba[ET4D2MI2IU;EQ0
+I2A:9X3[26;QhL`:hP[Sd<1
+R1
+R2
+R14
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v
+L0 22
+R3
+r1
+!s85 0
+31
+Z16 !s108 1760308599.000000
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v|
+!i113 1
+R5
+R6
+vinterface_hcsr04
+R0
+!i10b 1
+!s100 [BJiE6To^WU5B2mdO[4;91
+IaS0hfUcCXa]k2fET[oZ^l3
+R1
+R2
+w1757459217
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v|
+!i113 1
+R5
+R6
+vinterface_hcsr04_fd
+R0
+!i10b 1
+!s100 X[HzQhLCdcZHGUNPF[0T32
+Ibk1;=f;c<7<]JS<WgJ[1E3
+R1
+R2
+w1757698209
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v|
+!i113 1
+R5
+R6
+vinterface_hcsr04_uc
+R0
+!i10b 1
+!s100 FWj2kU<>]V^gVW[E8=5kD2
+IRzGeO0DJAeoI9e?DnEDO50
+R1
+R2
+w1757467334
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v
+R9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v|
+!i113 1
+R5
+R6
+vmux_nibble
+R15
+!i10b 1
+!s100 oJC1CF^FKQb0P>]YNI2i[3
+IZeRBMiJ`=o=;i^gzk2NfR2
+R1
+R2
+w1760303007
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v
+L0 4
+R3
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v|
+!i113 1
+R5
+R6
+vregistrador_n
+R15
+!i10b 1
+!s100 YY`SjIEH@^VQhO>f98NFS0
+I5c4256`46H?a24=fH>^kR3
+R1
+R2
+R8
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v
+R13
+R3
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v|
+!i113 1
+R5
+R6
+vrom_angulos_8x12
+R0
+!i10b 1
+!s100 gCPMchJOTTn1^b_Ge=hB:1
+IM[Lbk`0V3`HVTJF_8CcCP3
+R1
+R2
+w1759269253
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v|
+!i113 1
+R5
+R6
+vsonar
+Z17 !s110 1760308596
+!i10b 1
+!s100 z:898;WRfOIXBSI_iMNJd2
+In^SBjjm;Pg]>V<Tz7CZTN2
+R1
+R2
+w1760304298
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z18 !s108 1760308596.000000
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v|
+!i113 1
+R5
+R6
+vsonar_fd
+R0
+!i10b 1
+!s100 >h3LQ>9LIPmDOJM:03Q:G3
+I^5Jh>C^j<k2RIHQ^:0<]91
+R1
+R2
+w1759517784
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v
+L0 3
+R3
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v|
+!i113 1
+R5
+R6
+vsonar_fd_tb
+!s110 1760300837
+!i10b 1
+!s100 d7N]YA>[fNF[YQnjL3Yjg1
+IiJRDQ8VUl;NQ;=k3>1Z@92
+R1
+R2
+w1760300490
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_fd_tb.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_fd_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1760300837.000000
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_fd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_fd_tb.v|
+!i113 1
+R5
+R6
+vsonar_tb
+R17
+!i10b 1
+!s100 ^^3QJ1Mo<DfW=E_ma?RM93
+Im?Ji76Ci?CihUD[15>PdG3
+R1
+R2
+w1760304755
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_tb.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_tb.v|
+!i113 1
+R5
+R6
+vsonar_uc
+R0
+!i10b 1
+!s100 hA4G[nhLfX>4F<iX92?oA3
+I<17N135gSEShRU@JofniX2
+R1
+R2
+w1760308544
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v|
+!i113 1
+R5
+R6
+vsonar_uc_tb
+R15
+!i10b 1
+!s100 hbW[Yz4XX?Q2aZH`9lc4O3
+IPR7dNVoW:dZP4mOXP_nIW2
+R1
+R2
+w1760305863
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_uc_tb.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_uc_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_uc_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/sonar_uc_tb.v|
+!i113 1
+R5
+R6
+vtrena
+R7
+!i10b 1
+!s100 ih=CNiN[b:Bi@S]AP;mXW3
+Ii6zZC5^3okQ:3bOn0kDnY3
+R1
+R2
+w1760300133
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v
+L0 6
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v|
+!i113 1
+R5
+R6
+vtrena_tb
+!s110 1760297980
+!i10b 1
+!s100 K=e2MSQ2_dMB;76bn[1K73
+IkSY[1zeiDa9bWPoR<lZ6T1
+R1
+R2
+w1760297519
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/trena_tb.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/tb/trena_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1760297980.000000
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/trena_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/tb/trena_tb.v|
+!i113 1
+R5
+R6
+vtx_serial_7E1
+R0
+!i10b 1
+!s100 9E0=IHVXQA<<=gKTnmE`k2
+Icc^ElmiQgNc:FGcQ[n>:H1
+R1
+R2
+w1758731360
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v
+L0 21
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v|
+!i113 1
+R5
+R6
+ntx_serial_7@e1
+vtx_serial_7E1_fd
+R0
+!i10b 1
+!s100 [RJ2WgXNQPON006lkK?IP0
+IEc7aDjPlY:Z59B?07Q_Hj0
+R1
+R2
+w1758730588
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v
+R12
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v|
+!i113 1
+R5
+R6
+ntx_serial_7@e1_fd
+vtx_serial_uc
+R7
+!i10b 1
+!s100 82L>5WV=BRd>Vc8O6dCUb0
+I>:VAD2d;U:<E8OBSEGh<g0
+R1
+R2
+w1758730617
+8C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v
+FC:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v
+R13
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v|
 !i113 1
 R5
 R6

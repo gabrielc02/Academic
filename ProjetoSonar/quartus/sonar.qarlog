@@ -1,0 +1,39 @@
+Quartus Prime Archive log --	C:/Users/gabri/CODE/Academic/ProjetoSonar/quartus/sonar.qarlog
+
+Archive:	C:/Users/gabri/CODE/Academic/ProjetoSonar/quartus/sonar.qar
+Date:		Wed Oct 08 12:41:48 2025
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/gabri/CODE/Academic/ProjetoSonar/quartus/sonar.qpf
+C:/Users/gabri/CODE/Academic/ProjetoSonar/quartus/sonar.qsf
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/fd/sonar_fd.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/rom/rom_angulos_8x12.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_fd.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/sensor/interface_hcsr04_uc.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/circuito_pwm.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/servo/controle_servo.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_fd.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/transmissor/tx_serial_7E1_uc.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/exp3_sensor.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/trena/trena.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_bcd_3digitos.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_fd.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_cm_uc.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/contador_m.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/deslocador_n.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/edge_detector.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/gerador_pulso.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/hexa7seg.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/mux_nibble.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/modules/utils/registrador_n.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/top/sonar.v
+C:/Users/gabri/CODE/Academic/ProjetoSonar/src/uc/sonar_uc.v
+c:/intelfpga_lite/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 28 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -12,6 +12,9 @@ simv/
 *.o
 *.log
 *.txt
+*.cr.mti
+*.cr.mti
+
 
 # Outros
 *.bak
